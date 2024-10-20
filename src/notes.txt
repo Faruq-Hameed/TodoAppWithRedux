@@ -1,0 +1,7 @@
+Here(in src folder), the Redux part is managed
+under the action, reducer, and the store folder, but we would need components that
+will use them.
+Hence, we have two folders here: components, which consists of plain dumb
+components, which are the presentational components of the app having no idea that
+Redux exists or not in the app. Second, we have smart components that interact with
+Redux, and they reside in the containers folder
